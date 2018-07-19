@@ -12,3 +12,10 @@ This assumes you [already added a GPG key to your Yubikey](https://github.com/dr
 ```
 
 The important part here is typing the **`username`** and **`hostname/IP`**. These variables are needed to write a correct config.
+
+
+### The one-liner version 
+
+```
+git clone git@github.com:stationgroup/gpg-agent-forward.git ; cd gpg-agent-forward ; ./yubikey_gpg-agent-forward.sh USER HOST.COM
+```
