@@ -17,5 +17,5 @@ The important part here is typing the **`username`** and **`hostname/IP`**. Thes
 ### The one-liner version 
 
 ```
-git clone git@github.com:stationgroup/gpg-agent-forward.git ; cd gpg-agent-forward ; ./yubikey_gpg-agent-forward.sh USER HOST.COM
+git clone git@github.com:stationgroup/gpg-agent-forward.git && cd gpg-agent-forward && ./yubikey_gpg-agent-forward.sh USER HOST.COM
 ```
