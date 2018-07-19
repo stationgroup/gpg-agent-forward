@@ -1,4 +1,4 @@
-# Forward your Yubikey `gpg-agent` to remote host
+# Forward your Yubikey `gpg-agent` to a remote host.
 ### Simple GPG agent-forwarding config maker for Yubikey use with SSH.
 
 ## 📖 Getting Started
