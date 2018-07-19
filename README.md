@@ -10,3 +10,5 @@ This assumes you [already added a GPG key to your Yubikey](https://github.com/dr
 ```
 ./yubikey_gpg-agent-forward.sh admin host.example.com
 ```
+
+The important part here is typing the **`username`** and **`hostname/IP`**. These variables are needed to write a correct config.
