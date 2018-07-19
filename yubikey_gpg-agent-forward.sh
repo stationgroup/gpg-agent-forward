@@ -20,7 +20,7 @@ echo "  User $ruser" >> ~/.ssh/config
 echo "  RemoteForward /home/$ruser/.gnupg/S.gpg-agent $HOME/.gnupg/S.gpg-agent" >> ~/.ssh/config
 echo "  RemoteForward /home/$ruser/.gnupg/S.gpg-agent.ssh $HOME/.gnupg/S.gpg-agent.ssh" >> ~/.ssh/config
 echo "  ServerAliveInterval 10" >> ~/.ssh/config
-echo "Use this shortcut to forward your Yubikey to $host:"
+echo "Use this shortcut to forward your Yubikey to $hostname:"
 echo "  ssh $hostshortcut" 
 echo "Inspect or edit the config:"
 echo "  vi ~/.ssh/config"
